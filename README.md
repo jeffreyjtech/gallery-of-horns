@@ -2,7 +2,7 @@
 
 A React-based gallery app which displays horned animals.
 
-## Author: Jeffrey Jenkins
+## Author: [Jeffrey Jenkins](https://github.com/jeffreyjtech)
 
 ## Links and Resources
 
