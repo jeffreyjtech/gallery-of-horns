@@ -23,7 +23,7 @@ A React-based gallery app which displays horned animals.
 
 1. **Feature #1: Display images**
     - Estimate of time needed to complete: 30 minutes
-    - Start time: _____
+    - Start time: 3:23 PM
     - Finish time: _____
     - Actual time needed to complete: _____
 2. **Feature #2: Allow users to vote for their favorite beast**
