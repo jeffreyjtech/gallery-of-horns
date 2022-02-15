@@ -21,32 +21,18 @@ A React-based gallery app which displays horned animals.
 
 ### Lab 02 time estimates
 
-Number and name of feature: **Feature #1: Display images**
-
-Estimate of time needed to complete: 30 minutes
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
-
-Number and name of feature: **Feature #2: Allow users to vote for their favorite beast**
-
-Estimate of time needed to complete: 30 minutes
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
-
-Number and name of feature: **Feature 3: Bootstrap**
-
-Estimate of time needed to complete: 60 minutes
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
+1. Number and name of feature: **Feature #1: Display images**
+    - Estimate of time needed to complete: 30 minutes
+    - Start time: _____
+    - Finish time: _____
+    - Actual time needed to complete: _____
+2. **Feature #2: Allow users to vote for their favorite beast**
+    - Estimate of time needed to complete: 30 minutes
+    - Start time: _____
+    - Finish time: _____
+    - Actual time needed to complete: _____
+3. **Feature 3: Bootstrap**
+    - Estimate of time needed to complete: 60 minutes
+    - Start time: _____
+    - Finish time: _____
+    - Actual time needed to complete: _____
