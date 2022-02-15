@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Gallery of Horns
+
+A React-based gallery app which displays horned animals.
+
+## Author: Jeffrey Jenkins
+
+## Links and Resources
+
+- None to add currently
+
+## Reflections
+
+### Lab 01
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
