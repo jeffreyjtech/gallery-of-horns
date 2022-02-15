@@ -6,7 +6,7 @@ A React-based gallery app which displays horned animals.
 
 ## Links and Resources
 
-- None to add currently
+- None to add currently.
 
 ## Reflections
 
