@@ -12,6 +12,9 @@ A React-based gallery app which displays horned animals.
 
 ### Lab 01
 
+- Thanks to following along with Ryan's demo, I didn't find this to be too hard.
+- At first I had issues with the unneeded code added by React and some missing statements but once I addressed those, building the components was a pretty quick process.
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
