@@ -6,82 +6,36 @@ A React-based gallery app which displays horned animals.
 
 ## Links and Resources
 
-- None to add currently.
+- Learned how to add margin and borders using the respective [Boostrap Utility docs](https://getbootstrap.com/docs/5.1/utilities/api/)
 
 ## Reflections
 
-### Lab 01
+### Lab 01 reflection
 
 - Thanks to following along with Ryan's demo, I didn't find this to be too hard.
 - At first I had issues with the unneeded code added by React and some missing statements but once I addressed those, building the components was a pretty quick process.
 
-## Getting Started with Create React App
+### Lab 02 reflection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- These features weren't too bad to implement. Features 1 and 2 were quite easy as we had been demo'd it in class and I followed along at the time.
+- Feature 3 took longer since I had to take time to learn new bootstrap features, like cards, containers, rows, and the bootstrap styling utility.
 
-## Available Scripts
+## Time Estimates
 
-In the project directory, you can run:
+### Lab 02 time estimates
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Feature #1: Display images**
+    - Estimate of time needed to complete: 30 minutes
+    - Start time: 3:23 PM
+    - Finish time: 3:45 PM
+    - Actual time needed to complete: 22 minutes
+2. **Feature #2: Allow users to vote for their favorite beast**
+    - Estimate of time needed to complete: 30 minutes
+    - Start time: 3:45 PM
+    - Finish time: 3:55 PM
+    - Actual time needed to complete: 10 minutes
+3. **Feature 3: Bootstrap**
+    - Estimate of time needed to complete: 60 minutes
+    - Start time: 4:03 PM
+    - Finish time: 4:47 PM
+    - Actual time needed to complete: 44 minutes
