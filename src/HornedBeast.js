@@ -20,7 +20,7 @@ class HornedBeast extends React.Component {
   render() {
     return(
       <Col className='mt-4'>
-        <Card key={this.props.idx} className='p-1'>
+        <Card key={this.props.idx} className='p-1 h-100'>
           <Card.Img
             className='border border-1'
             src={this.props.beastData.image_url}
