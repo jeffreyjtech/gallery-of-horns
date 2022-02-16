@@ -6,7 +6,9 @@ A React-based gallery app which displays horned animals.
 
 ## Links and Resources
 
-- Learned how to add margin and borders using the respective [Boostrap Utility docs](https://getbootstrap.com/docs/5.1/utilities/api/)
+- Used various Bootstrap docs:
+  - [Boostrap Utility docs](https://getbootstrap.com/docs/5.1/utilities/api/) for sizing, border, margin and padding styling.
+  - [Bootstrap Grid doc](https://getbootstrap.com/docs/4.0/layout/grid/) for setting up the card grid.
 
 ## Reflections
 
