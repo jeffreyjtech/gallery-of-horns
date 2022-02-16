@@ -17,6 +17,9 @@ A React-based gallery app which displays horned animals.
 
 ### Lab 02 reflection
 
+- These features weren't too bad to implement. Features 1 and 2 were quite easy as we had been demo'd it in class and I followed along at the time.
+- Feature 3 took longer since I had to take time to learn new bootstrap features, like cards, containers, rows, and the bootstrap styling utility.
+
 ## Time Estimates
 
 ### Lab 02 time estimates
