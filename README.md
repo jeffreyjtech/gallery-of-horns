@@ -28,9 +28,9 @@ A React-based gallery app which displays horned animals.
     - Actual time needed to complete: 22 minutes
 2. **Feature #2: Allow users to vote for their favorite beast**
     - Estimate of time needed to complete: 30 minutes
-    - Start time: _____
-    - Finish time: _____
-    - Actual time needed to complete: _____
+    - Start time: 3:45 PM
+    - Finish time: 3:55 PM
+    - Actual time needed to complete: 10 minutes
 3. **Feature 3: Bootstrap**
     - Estimate of time needed to complete: 60 minutes
     - Start time: _____
