@@ -1,6 +1,10 @@
-import React from "react";
-import HornedBeast from "./HornedBeast";
-import './Main.css';
+import React from 'react';
+import HornedBeast from './HornedBeast';
+// import './Main.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap';
+import Col from 'react-bootstrap';
+
 
 class Main extends React.Component {
   render() {
@@ -8,9 +12,9 @@ class Main extends React.Component {
       (element, idx) => <HornedBeast beastData={element} key={idx} />
     );
     return(
-      <main>
+      <Container className="mainContainer">
         {beastComps}
-      </main>
+      </Container>
     );
   }
 }
