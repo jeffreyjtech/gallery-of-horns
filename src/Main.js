@@ -1,9 +1,8 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-// import './Main.css';
+
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap';
-import Col from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
 
 
 class Main extends React.Component {
@@ -13,7 +12,9 @@ class Main extends React.Component {
     );
     return(
       <Container className="mainContainer">
-        {beastComps}
+        <Row xs={2} sm={2} md={3} lg={4}>
+          {beastComps}
+        </Row>
       </Container>
     );
   }
