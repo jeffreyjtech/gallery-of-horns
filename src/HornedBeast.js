@@ -27,8 +27,8 @@ class HornedBeast extends React.Component {
             alt={this.props.beastData.description} 
             title={this.props.beastData.title}
             onClick={this.handleVote}
-            fluid={true}
-            rounded={true}
+            fluid="true"
+            rounded="true"
           />
           <Card.Title>{this.props.beastData.title}</Card.Title>
           <Card.Body>
