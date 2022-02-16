@@ -1,5 +1,6 @@
-import React from "react";
-import './HornedBeast.css';
+import React from 'react';
+// import './HornedBeast.css';
+import Card from 'react-bootstrap/Card';
 
 class HornedBeast extends React.Component {
   constructor(props){
@@ -17,19 +18,25 @@ class HornedBeast extends React.Component {
 
   render() {
     return(
-      <article key={this.props.idx}>
-        <h2>{this.props.beastData.title}</h2>
-        <img 
+      <Card key={this.props.idx}>
+        <Card.Img
           src={this.props.beastData.image_url}
           alt={this.props.beastData.description} 
           title={this.props.beastData.title}
           onClick={this.handleVote}
+          fluid={true}
+          rounded={true}
         />
-        <p>
-          {this.props.beastData.description}
-        </p>
-        <span>❤ {this.state.votes}</span>
-      </article>
+        <Card.Title>{this.props.beastData.title}</Card.Title>
+        <Card.Body>
+          <Card.Subtitle>
+            {this.props.beastData.description}
+          </Card.Subtitle>
+        </Card.Body>
+        <Card.Body>
+          ❤ {this.state.votes}
+        </Card.Body>
+      </Card>
     );
   }
 }
