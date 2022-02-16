@@ -34,5 +34,5 @@ A React-based gallery app which displays horned animals.
 3. **Feature 3: Bootstrap**
     - Estimate of time needed to complete: 60 minutes
     - Start time: 4:03 PM
-    - Finish time: _____
-    - Actual time needed to complete: _____
+    - Finish time: 4:47 PM
+    - Actual time needed to complete: 44 minutes
