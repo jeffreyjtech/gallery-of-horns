@@ -6,7 +6,7 @@ A React-based gallery app which displays horned animals.
 
 ## Links and Resources
 
-- None to add currently.
+- Learned how to add margin and borders using the respective [Boostrap Utility docs](https://getbootstrap.com/docs/5.1/utilities/api/)
 
 ## Reflections
 
