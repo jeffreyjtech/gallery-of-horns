@@ -33,7 +33,6 @@ class App extends React.Component {
 
   render() {
     let beastModal;
-    console.log(this.state.showModal)
     if (this.state.showModal){
       beastModal = <SelectedBeast 
         showModal={this.state.showModal}
