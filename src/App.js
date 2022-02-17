@@ -32,18 +32,14 @@ class App extends React.Component {
   }
 
   render() {
-    let beastModal;
-    if (this.state.showModal){
-      beastModal = <SelectedBeast 
-        showModal={this.state.showModal}
-        beastData={this.state.selectedBeast}
-        handleClose={this.handleClose}
-      />
-    }
     return (
       <>
         <Header />
-        {beastModal}
+        <SelectedBeast 
+          showModal={this.state.showModal}
+          beastData={this.state.selectedBeast}
+          handleClose={this.handleClose}
+        />
         <Main 
           beastsDataset={beastsDataset}
           handleSelectBeast={this.handleSelectBeast}
