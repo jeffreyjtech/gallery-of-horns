@@ -10,37 +10,44 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import beastsDataset from './data.json';
 
 class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       showModal: false,
-      selectedBeast: {}
-    }
+      selectedBeast: {},
+      hornsQty: null,
+    };
   }
 
   handleSelectBeast = (selectedBeast) => {
     this.setState({
       selectedBeast: selectedBeast,
-      showModal: true
-    })
-  }
+      showModal: true,
+    });
+  };
 
   handleClose = () => {
     this.setState({
-      showModal: false
-    })
-  }
+      showModal: false,
+    });
+  };
+
+  handleHorns = (hornsQty) => {
+    this.setState({
+      hornsQty,
+    });
+  };
 
   render() {
     return (
       <>
         <Header />
-        <SelectedBeast 
+        <SelectedBeast
           showModal={this.state.showModal}
           beastData={this.state.selectedBeast}
           handleClose={this.handleClose}
         />
-        <Main 
+        <Main
           beastsDataset={beastsDataset}
           handleSelectBeast={this.handleSelectBeast}
         />
