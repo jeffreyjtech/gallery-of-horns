@@ -18,8 +18,8 @@ class SelectedBeast extends React.Component {
             fluid="true"
           />
         </Modal.Body>
-        <Modal.Title>{this.props.beastData.title}</Modal.Title>
-        <Modal.Body>{this.props.beastData.description}</Modal.Body>
+        <Modal.Title className='ms-3'>{this.props.beastData.title}</Modal.Title>
+        <Modal.Body className='ms-3'>{this.props.beastData.description}</Modal.Body>
         <Button variant="secondary" onClick={this.props.handleClose}>
           Close
         </Button>
