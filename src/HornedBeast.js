@@ -11,10 +11,11 @@ class HornedBeast extends React.Component {
     }
   }
 
-  handleVote = () =>  {
+  handleSelect = () =>  {
     this.setState({
       votes: this.state.votes + 1
     })
+    this.props.handleSelectBeast(this.props.beastData)
   }
 
   render() {
@@ -26,7 +27,7 @@ class HornedBeast extends React.Component {
             src={this.props.beastData.image_url}
             alt={this.props.beastData.description} 
             title={this.props.beastData.title}
-            onClick={this.handleVote}
+            onClick={this.handleSelect}
             fluid="true"
             rounded="true"
           />
