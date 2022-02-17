@@ -10,12 +10,11 @@ class SelectedBeast extends React.Component {
       <Modal show={this.props.showModal}>
         <Modal.Body>
           <Image
-            className="border border-1"
+            className="border border-1 w-100"
             src={this.props.beastData.image_url}
             alt={this.props.beastData.description}
             title={this.props.beastData.title}
             rounded="true"
-            fluid="true"
           />
         </Modal.Body>
         <Modal.Title className='ms-3'>{this.props.beastData.title}</Modal.Title>
