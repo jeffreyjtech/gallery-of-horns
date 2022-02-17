@@ -22,6 +22,10 @@ A React-based gallery app which displays horned animals.
 - These features weren't too bad to implement. Features 1 and 2 were quite easy as we had been demo'd it in class and I followed along at the time.
 - Feature 3 took longer since I had to take time to learn new bootstrap features, like cards, containers, rows, and the bootstrap styling utility.
 
+### Lab 03 reflection
+
+-
+
 ## Time Estimates
 
 ### Lab 02 time estimates
@@ -41,3 +45,11 @@ A React-based gallery app which displays horned animals.
     - Start time: 4:03 PM
     - Finish time: 4:47 PM
     - Actual time needed to complete: 44 minutes
+
+### Lab 03 time estimates
+
+1. **Feature #1: Display a Modal**
+    - Estimate of time needed to complete: 60 minutes
+    - Start time: 5:40 PM
+    - Finish time:  _____
+    - Actual time needed to complete: _____
