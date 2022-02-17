@@ -27,6 +27,10 @@ A React-based gallery app which displays horned animals.
 - This took much longer than expected but more than half of the elapsed 110 minutes was spent on learning how to pass data between components, helping a classmate with their code, and taking a tea break.
 - I ended up spending a good bit of the remaining time troubleshooting my modal component. It wouldn't appear at all! In the end, it was just missing its "show" property.
 
+### Lab 04 reflection
+
+-
+
 ## Time Estimates
 
 ### Lab 02 time estimates
@@ -54,3 +58,11 @@ A React-based gallery app which displays horned animals.
     - Start time: 5:40 PM
     - Finish time:  7:30 PM
     - Actual time needed to complete: 110 minutes
+
+### Lab 04 time estimates
+
+1. **Feature #1: Filter by Numbers of Horns**
+    - Estimate of time needed to complete: 30 minutes
+    - Start time: 3:02 PM
+    - Finish time:  
+    - Actual time needed to complete: 
