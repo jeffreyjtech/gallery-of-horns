@@ -7,7 +7,10 @@ import Button from 'react-bootstrap/Button'
 class SelectedBeast extends React.Component {
   render() {
     return (
-      <Modal show={this.props.showModal}>
+      <Modal show={this.props.showModal} onHide={this.props.handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{this.props.beastData.title}</Modal.Title>
+        </Modal.Header>
         <Modal.Body>
           <Image
             className="border border-1 w-100"
@@ -17,8 +20,7 @@ class SelectedBeast extends React.Component {
             rounded="true"
           />
         </Modal.Body>
-        <Modal.Title className='ms-3'>{this.props.beastData.title}</Modal.Title>
-        <Modal.Body className='ms-3'>{this.props.beastData.description}</Modal.Body>
+        <Modal.Body className="ms-1">{this.props.beastData.description}</Modal.Body>
         <Button variant="secondary" onClick={this.props.handleClose}>
           Close
         </Button>
