@@ -24,8 +24,8 @@ A React-based gallery app which displays horned animals.
 
 ### Lab 03 reflection
 
-- This took much longer than I expected, today was an off-day in terms of my coding proficiency.
-- It took a large amount of time to understand how best to move data between components, then even more time to troubleshoot my Modal component which, in the end, was just missing its "show" property.
+- This took much longer than expected but more than half of the elapsed 110 minutes was spent on learning how to pass data between components, helping a classmate with their code, and taking a tea break.
+- I ended up spending a good bit of the remaining time troubleshooting my modal component. It wouldn't appear at all! In the end, it was just missing its "show" property.
 
 ## Time Estimates
 
