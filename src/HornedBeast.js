@@ -31,7 +31,7 @@ class HornedBeast extends React.Component {
             fluid="true"
             rounded="true"
           />
-          <Card.Title>{this.props.beastData.title}</Card.Title>
+          <Card.Title className='mt-1'>{this.props.beastData.title}</Card.Title>
           <Card.Body>
             <Card.Subtitle>
               {this.props.beastData.description}
