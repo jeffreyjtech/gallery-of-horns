@@ -51,5 +51,5 @@ A React-based gallery app which displays horned animals.
 1. **Feature #1: Display a Modal**
     - Estimate of time needed to complete: 60 minutes
     - Start time: 5:40 PM
-    - Finish time:  _____
-    - Actual time needed to complete: _____
+    - Finish time:  7:30 PM
+    - Actual time needed to complete: 110 minutes
