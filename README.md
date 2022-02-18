@@ -10,6 +10,7 @@ A React-based gallery app which displays horned animals.
   - [Boostrap Utility docs](https://getbootstrap.com/docs/5.1/utilities/api/) for sizing, border, margin and padding styling.
   - [Bootstrap Grid doc](https://getbootstrap.com/docs/4.0/layout/grid/) for setting up the card grid.
 - Used this [stackOverflow thread](https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates) to learn how to filter non-unique values out of an array. This was applied in HornSelector.js.
+  - Also used [Array.from() MDN doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) and [Set MDN doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) for this feature.
 
 ## Reflections
 
