@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Main from './Main';
 import SelectedBeast from './SelectedBeast';
+import HornSelector from './HornSelector.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,7 +16,7 @@ class App extends React.Component {
     this.state = {
       showModal: false,
       selectedBeast: {},
-      hornsQty: null,
+      hornsQty: NaN,
     };
   }
 
@@ -42,6 +43,7 @@ class App extends React.Component {
     return (
       <>
         <Header />
+        <HornSelector handleHorns={this.handleHorns} />
         <SelectedBeast
           showModal={this.state.showModal}
           beastData={this.state.selectedBeast}
@@ -50,6 +52,7 @@ class App extends React.Component {
         <Main
           beastsDataset={beastsDataset}
           handleSelectBeast={this.handleSelectBeast}
+          hornsQty={this.state.hornsQty}
         />
         <Footer />
       </>
