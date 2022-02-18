@@ -12,7 +12,7 @@ class HornSelector extends React.Component {
     return (
       <Form className="ms-4 w-25">
         <Form.Group>
-          <Form.Label htmlFor="formSelect">Horn select</Form.Label>
+          <Form.Label htmlFor="formSelect">Filter by horn quantity</Form.Label>
           <Form.Select id="formSelect" onChange={this.handleSelect}>
             <option>{null}</option>
             <option>1</option>
