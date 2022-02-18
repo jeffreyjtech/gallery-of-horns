@@ -27,6 +27,11 @@ A React-based gallery app which displays horned animals.
 - This took much longer than expected but more than half of the elapsed 110 minutes was spent on learning how to pass data between components, helping a classmate with their code, and taking a tea break.
 - I ended up spending a good bit of the remaining time troubleshooting my modal component. It wouldn't appear at all! In the end, it was just missing its "show" property.
 
+### Lab 04 reflection
+
+- It was not particularly hard to get the horn filter working. The hardest part was figuring out the best logic for handling the default state of the filter and the "no filter selected" state.
+- I had MVP after 45 minutes. The remaining time was spent on a break and CSS adjustments
+
 ## Time Estimates
 
 ### Lab 02 time estimates
@@ -54,3 +59,11 @@ A React-based gallery app which displays horned animals.
     - Start time: 5:40 PM
     - Finish time:  7:30 PM
     - Actual time needed to complete: 110 minutes
+
+### Lab 04 time estimates
+
+1. **Feature #1: Filter by Numbers of Horns**
+    - Estimate of time needed to complete: 30 minutes
+    - Start time: 3:02 PM
+    - Finish time:  4:13 PM
+    - Actual time needed to complete: 71 minutes

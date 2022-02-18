@@ -2,7 +2,7 @@ import React from 'react';
 
 import Modal from 'react-bootstrap/Modal';
 import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 
 class SelectedBeast extends React.Component {
   render() {
@@ -20,7 +20,9 @@ class SelectedBeast extends React.Component {
             rounded="true"
           />
         </Modal.Body>
-        <Modal.Body className="ms-1">{this.props.beastData.description}</Modal.Body>
+        <Modal.Body className="ms-1">
+          {this.props.beastData.description}
+        </Modal.Body>
         <Button variant="secondary" onClick={this.props.handleClose}>
           Close
         </Button>
