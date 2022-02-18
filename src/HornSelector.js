@@ -4,9 +4,15 @@ import Form from 'react-bootstrap/Form';
 
 class HornSelector extends React.Component {
   handleSelect = (event) => {
-    let parsedHornQty = Number.parseInt(event.target.value);
-    this.props.handleHorns(parsedHornQty);
+    this.props.handleHorns(parseInt(event.target.value));
   };
+
+  constructOptions = () => {
+    let possibleHornQtys = this.props.beastsDataset.map(beast => beast.horns);
+    possibleHornQtys = Array.from(Set(possibleHornQtys));
+    possibleHornQtys.sort();
+    return possibleHornQtys.map(hornQty => (<option>{hornQty}</option>))
+  }
 
   render() {
     return (
