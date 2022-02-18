@@ -43,7 +43,10 @@ class App extends React.Component {
     return (
       <>
         <Header />
-        <HornSelector handleHorns={this.handleHorns} />
+        <HornSelector 
+          handleHorns={this.handleHorns} 
+          beastsDataset={beastsDataset} 
+        />
         <SelectedBeast
           showModal={this.state.showModal}
           beastData={this.state.selectedBeast}
