@@ -64,5 +64,5 @@ A React-based gallery app which displays horned animals.
 1. **Feature #1: Filter by Numbers of Horns**
     - Estimate of time needed to complete: 30 minutes
     - Start time: 3:02 PM
-    - Finish time:  
-    - Actual time needed to complete: 
+    - Finish time:  3:46 PM
+    - Actual time needed to complete: 44 minutes
