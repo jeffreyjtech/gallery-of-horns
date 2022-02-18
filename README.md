@@ -29,7 +29,8 @@ A React-based gallery app which displays horned animals.
 
 ### Lab 04 reflection
 
--
+- It was not particularly hard to get the horn filter working. The hardest part was figuring out the best logic for handling the default state of the filter and the "no filter selected" state.
+- I had MVP after 45 minutes. The remaining time was spent on a break and CSS adjustments
 
 ## Time Estimates
 
@@ -64,5 +65,5 @@ A React-based gallery app which displays horned animals.
 1. **Feature #1: Filter by Numbers of Horns**
     - Estimate of time needed to complete: 30 minutes
     - Start time: 3:02 PM
-    - Finish time:  3:46 PM
-    - Actual time needed to complete: 44 minutes
+    - Finish time:  4:13 PM
+    - Actual time needed to complete: 71 minutes
