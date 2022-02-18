@@ -4,16 +4,20 @@ import Form from 'react-bootstrap/Form';
 
 class HornSelector extends React.Component {
   handleSelect = (event) => {
-    let parsedHornQty = Number.parseInt(event.target.value)
+    let parsedHornQty = Number.parseInt(event.target.value);
     this.props.handleHorns(parsedHornQty);
   };
 
   render() {
     return (
-      <Form className="ms-4 w-25">
+      <Form className="ms-4">
         <Form.Group>
           <Form.Label htmlFor="formSelect">Filter by horn quantity</Form.Label>
-          <Form.Select id="formSelect" onChange={this.handleSelect}>
+          <Form.Select
+            id="formSelect"
+            onChange={this.handleSelect}
+            className="w-25"
+          >
             <option>{null}</option>
             <option>1</option>
             <option>2</option>
