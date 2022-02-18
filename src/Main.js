@@ -7,10 +7,12 @@ import Row from 'react-bootstrap/Row';
 class Main extends React.Component {
   render() {
     let filteredBeasts;
-    if(isNaN(this.props.hornsQty)){
+    if (isNaN(this.props.hornsQty)) {
       filteredBeasts = this.props.beastsDataset;
     } else {
-      filteredBeasts = this.props.beastsDataset.filter((beast) => beast.horns === this.props.hornsQty)
+      filteredBeasts = this.props.beastsDataset.filter(
+        (beast) => beast.horns === this.props.hornsQty
+      );
     }
     let beastComps = filteredBeasts.map((beast, idx) => {
       return (
